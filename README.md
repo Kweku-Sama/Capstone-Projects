@@ -1,2 +1,1 @@
-# Capstone-Projects
-Contains all projects on web development course I took
+Freecodecamp html cat photo app project

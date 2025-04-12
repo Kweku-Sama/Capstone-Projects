@@ -1,129 +1,65 @@
-<!--Project Specifications
-1. Create an HTML file named index.html.
-
-2. Use the <!DOCTYPE html> declaration at the beginning of the file to indicate that it's an HTML document.
-
-3. Create a head section that includes a title element with the text "My Resume".
-
-4. Inside the body section, write HTML code to create an online resume covering the following aspects:
-
-5. Summary or objective statement
-
-6. Education (list degrees, schools, and dates)
-
-7. Work experience (list job titles, employers, dates, and responsibilities)
-
-8. Skills (list relevant skills or areas of expertise)
-
-9. Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)
-
-10. Use appropriate HTML tags to format the content of each section, such as h1 for section headings and ul or ol for lists.
-
-11. Use HTML tags to add a profile photo of yourself.
-
-12. Use relevant anchor tags to create a multi-page website, listing other aspects of your resume such as Hobbies and Contact details.
-
-13. Add a footer element with your name and any copyright information or other disclaimers. (Hint: use the MDN docs for things you don't know how to do: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
-
-14. Save the index.html file and open it in a web browser to ensure that it displays correctly.
-
-15. Add your website to your GitHub to start building your portfolio.
-
-16. Publish your website using GitHub pages and share it here (in the Q&A) with other students.
-
-17. Comment and make suggestions to other students' projects.-->
-
-
-<!--HTML Capstone Project Solution-->
-
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-</head>
-<body>
-    <h1>Kweku Chris</h1>
-    <img src="./Assets/Images/profile picture.png" alt="Profile Picture"><br>
-
-    <h2>Summary</h2>
-    <hr/>
-    <p> 
-       I am a detail-oriented and safety-conscious electrical engineer with extensive 
-       expertise in bifurcation analysis, complex electrical system optimization, and commercial 
-       electrical wiring. In addition, I am proficient in utilizing industry-standard software tools, 
-       including P-Spice, Cyme, MATLAB, and AutoCAD, to enhance system performance and efficiency.
-        Adept at data analysis, troubleshooting, and technical reporting. Seeking to leverage my skills and experience to contribute to the success of a forward-thinking organization. 
-    </p>
-    <h2>Education</h2>
-    <hr/>
-    <ul>
-        <li>
-            <h3>Bachelor of Science in electrical and Electronic Engineering</h3>
-            <p>University of Mines and Technology</p>
-            <p><em>2011-2015<em/></p>
-        </li>
-        <li>
-            <h3>WASSCE</h3>
-            <p>Prempeh College</p>
-            <p><em>2008-2011<em/></p>
-        </li>
-    </ul>
-    <h2>Work Experience</h2>
-    <hr/>
-    <ul>
-        <li>
-            <h3>Electrical Engineer</h3>
-            <p>Power Systems Ltd</p>
-            <p><em>2016-2018<em/></p>
-            <p>Responsibilities:</p>
-            <ul>
-                <li>Designed and implemented a new electrical system for a commercial building, resulting in a 20% increase in energy efficiency.</li>
-                <li>Conducted regular inspections and maintenance of electrical systems to ensure compliance with safety standards.</li>
-                <li>Collaborated with a team of engineers to develop a comprehensive plan for upgrading the company's electrical infrastructure.</li>
-            </ul>
-        </li>
-        <li>
-            <h3>Electrical Technician</h3>
-            <p>Tema Thermal Plant</p>
-            <p><em>2015-2016<em/></p>
-            <p>Responsibilities:</p>
-            <ul>
-                <li>Assisted in the installation and maintenance of electrical equipment, including transformers, circuit breakers, and switchgear.</li>
-                <li>Performed routine testing and troubleshooting of electrical systems to identify and resolve issues in a timely manner.</li>
-                <li>Participated in the development of safety protocols and procedures to ensure compliance with industry regulations.</li>
-            </ul>
-        </li>
-    <h2>Skills</h2>
-    <hr/>
-    <ul>
-        <li>Electrical system design and analysis</li>
-        <li>Power system optimization</li>
-        <li>Technical report writing</li>
-        <li>Data analysis and interpretation</li>
-        <li>AutoCAD, P-Spice, Cyme, MATLAB</li>
-    </ul>
-    <h2>Awards and Certifications</h2>
-    <hr/>
-    <ul>
-        <li>Best Electrical Engineering Student, University of Mines and Technology, 2015</li>
-        <li>Certified Electrical Engineer, Ghana Institution of Engineers, 2016</li>
-    </ul>
-
-    <hr/>
-    <h3>
-        <a href="./Public/hobbies.html">My Hobbies</a><br>
-        <a href="./Public/contact details.html">Contact Details</a>
-    </h3>
+  <head>
+    <meta charset="utf-8">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
     <footer>
-        <small  
-            <p>
-            Copyright &copy; 2025 Kweku Chris. All rights reserved.Disclaimer
-            </p>
-        </small>
-
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
     </footer>
-    
-</body>
+  </body>
 </html>
